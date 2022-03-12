@@ -8,10 +8,18 @@ public class StudentGrader{
 
 			float test = sc_object.nextFloat();
 
-			float lab = sc_object.nextFloat();
-
 			float homework = sc_object.nextFloat();
 
-			System.out.println(test*0.4+lab*0.1+homework*0.5);
+			float lab = sc_object.nextFloat();
+			
+			float testavg = 0.4f;
+
+			float homeworkavg = 0.5f;
+
+			float labavg = 0.1f;
+
+			float average = test*testavg+homework*homeworkavg+lab*labavg;
+			
+			System.out.println(average);
 		}
 	}

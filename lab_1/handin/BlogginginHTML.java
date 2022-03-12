@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class BlogginginHTML {
+public class BloggingInHTML {
 	public static void main(String[] args){
 		Scanner sc_object = new Scanner(System.in);
 
@@ -21,9 +21,7 @@ public class BlogginginHTML {
 		//The fifth input is the post's
 		String date = sc_object.nextLine();
 
-		System.out.print("<html><body><h1>"+header+"</h1><img scr='"+image+"'/><p>"+text+"</p><small>By"+author+","+date+"</small></body></html>");
+		System.out.println("<html><body><h1>"+header+"</h1><img scr='"+image+"'/><p>"+text+"</p><small>By "+author+", "+date+"</small></body></html>\n");
 
-//<html><body><h1>Header</h1><img src='image.png' /><p>text
-	//description</p><small>By me, 08/01/2018</small></body></html>
 	}
 }

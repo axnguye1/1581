@@ -1,4 +1,4 @@
-//Amanda Nguyen Problem 7 \: How Odd!
+//Amanda Nguyen Problem 7 : How Odd!
 
 import java.util.Scanner;
 
