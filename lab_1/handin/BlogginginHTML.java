@@ -21,7 +21,7 @@ public class BloggingInHTML {
 		//The fifth input is the post's
 		String date = sc_object.nextLine();
 
-		System.out.println("<html><body><h1>"+header+"</h1><img scr='"+image+"'/><p>"+text+"</p><small>By "+author+", "+date+"</small></body></html>\n");
+		System.out.println("<html><body><h1>"+header+"</h1><img scr='"+image+"'/><p>"+text+"</p><small>By "+author+", "+date+"</small></body></html>");
 
 	}
 }
