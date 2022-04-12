@@ -59,11 +59,16 @@ public class ArrayUtil{
 	}
 	//Amanda Nguyen Problem 4 Array Contains
 	static boolean contains(String element, String[] array){
-		String alphabet = contains(array);
-		String[] letters = new String[alphabet]
-	
-		if (letters : array){
+		int t = 0;
+		for(int i=0; i<array.length; i++){
+			if(element.equals(array[i]))
+				t = 1;
 		}
-		
+		if(t == 1)
+			return true;
+		else 
+			return false;	
 	}
+	
 }
+
