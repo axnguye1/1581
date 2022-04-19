@@ -35,7 +35,7 @@ public class Account{
 			this.balance -= money;
 
 	}public String toString() {
-		return String.format("Name: %s, Account ID: %d, Balance $%.02f", 
+		return String.format("Name: %s, Account ID: %d, Balance: $%.02f", 
 														this.name, this.id, this.balance);
 	}
 
