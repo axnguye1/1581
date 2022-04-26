@@ -28,6 +28,8 @@ public class Monster{
 		return xp;
 	}
 	public static Monster spawn(String monsterName){
+	
+		
 		if(monsterName == "goblin"){
 			return new Monster("goblin", 60, 8, 1);
 		}
@@ -40,7 +42,7 @@ public class Monster{
 			return new Monster("troll", 150, 15, 5);
 		}
 		
-		
+		return "monsterName"();
 	}
 
 	public void takeDamage(int damage){
