@@ -29,6 +29,6 @@ public class RGBColor{
 		return String.format("rgb(%d,%d,%d)", this.red, this.green, this.blue);
 	}
 	public String toHex(){
-		return String.format("#%02x%02%02x", this.red, this.green, this.blue);
+		return String.format("#%02x%02x%02x", this.red, this.green, this.blue);
 	}
 }

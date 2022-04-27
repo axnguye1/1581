@@ -16,7 +16,7 @@
 		this.subject = subject;
 		this.to = to;
 		this.from = from;
-		this.body = " ";
+		this.body = "";
 	}
 	public void setBody(String body){
 		this.body = body;
